@@ -50,3 +50,7 @@
 	path = content/build/cli-wallet/develop
 	url = https://github.com/iotaledger/cli-wallet
 	branch = develop
+[submodule "content/build/identity.rs/develop"]
+	path = content/build/identity.rs/develop
+	url = https://github.com/iotaledger/identity.rs
+	branch = dev
