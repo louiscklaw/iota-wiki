@@ -6011,6 +6011,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cli-wallet@workspace:content/build/cli-wallet/develop/documentation":
+  version: 0.0.0-use.local
+  resolution: "cli-wallet@workspace:content/build/cli-wallet/develop/documentation"
+  dependencies:
+    "@iota-community/iota-wiki-cli": "iota-community/iota-wiki-cli#v2"
+  languageName: unknown
+  linkType: soft
+
 "clipanion@npm:^3.2.0-rc.10, clipanion@npm:^3.2.0-rc.4":
   version: 3.2.0-rc.11
   resolution: "clipanion@npm:3.2.0-rc.11"
@@ -9243,14 +9251,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hornet-develop@workspace:content/build/hornet/develop/documentation":
-  version: 0.0.0-use.local
-  resolution: "hornet-develop@workspace:content/build/hornet/develop/documentation"
-  dependencies:
-    "@iota-community/iota-wiki-cli": "iota-community/iota-wiki-cli#v2"
-  languageName: unknown
-  linkType: soft
-
 "hornet@workspace:content/build/hornet/production/documentation":
   version: 0.0.0-use.local
   resolution: "hornet@workspace:content/build/hornet/production/documentation"
@@ -9511,18 +9511,6 @@ __metadata:
   checksum: 5c324d283552b1269cfc13a503aaaa172a280f914e5b81544f3803bc6f06a3b585fb79f66f7c771a2c052db7982c18bf92d001e3b47282e3abbbb4c4cc488d68
   languageName: node
   linkType: hard
-
-"identity-develop@workspace:content/build/identity.rs/develop/documentation":
-  version: 0.0.0-use.local
-  resolution: "identity-develop@workspace:content/build/identity.rs/develop/documentation"
-  dependencies:
-    "@iota-community/iota-wiki-cli": "iota-community/iota-wiki-cli#v2"
-    raw-loader: ^4.0.2
-    remark-code-import: ^0.3.0
-    remark-import-partial: ^0.0.2
-    remark-remove-comments: ^0.2.0
-  languageName: unknown
-  linkType: soft
 
 "identity@workspace:content/build/identity.rs/v0.5.0/documentation":
   version: 0.0.0-use.local
@@ -9794,17 +9782,6 @@ __metadata:
   checksum: cc3182d793aad82a8d1f0af697b462939cb46066ec48bbf1707c150ad5fad6406137e91a262022c269702e01621f35ef60269f6c0d7fd178487959809acdfb14
   languageName: node
   linkType: hard
-
-"iota-rs-develop@workspace:content/build/iota.rs/develop/documentation":
-  version: 0.0.0-use.local
-  resolution: "iota-rs-develop@workspace:content/build/iota.rs/develop/documentation"
-  dependencies:
-    "@iota-community/iota-wiki-cli": "iota-community/iota-wiki-cli#v2"
-    raw-loader: ^4.0.2
-    remark-code-import: ^0.3.0
-    remark-import-partial: ^0.0.2
-  languageName: unknown
-  linkType: soft
 
 "iota-rs@workspace:content/build/iota.rs/production/documentation":
   version: 0.0.0-use.local
@@ -17004,17 +16981,6 @@ plugin-image-zoom@flexanalytics/plugin-image-zoom:
   checksum: e4d62aa4145d99fe34747ccf7506d4b4d6e60dd677c0eb18a51e316d38116ace2d194e4b22a9eb7b767b0282f39878ddcc4ae9440dcb0c005c9150668747cf5b
   languageName: node
   linkType: hard
-
-"wallet-rs-develop@workspace:content/build/wallet.rs/develop/documentation":
-  version: 0.0.0-use.local
-  resolution: "wallet-rs-develop@workspace:content/build/wallet.rs/develop/documentation"
-  dependencies:
-    iota-wiki-cli: "iota-community/iota-wiki-cli#v2"
-    raw-loader: ^4.0.2
-    remark-code-import: ^0.3.0
-    remark-import-partial: ^0.0.2
-  languageName: unknown
-  linkType: soft
 
 "wallet-rs@workspace:content/build/wallet.rs/production/documentation":
   version: 0.0.0-use.local

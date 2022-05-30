@@ -122,21 +122,21 @@ module.exports = {
                 {
                   label: 'Getting Started',
                   sublabel: 'IOTA development basics',
-                  to: 'build/welcome',
+                  to: 'introduction/welcome',
                   icon: '\ue902',
-                  activeBaseRegex: '^/(build|blueprints)/.*',
+                  activeBaseRegex: '^/introduction/.*',
                 },
               ],
             },
             {
-              label: 'Chrysalis (IOTA 1.5)',
+              label: 'Nodes & INX Plugins',
               items: [
                 {
-                  label: 'Chrysalis Docs',
-                  sublabel: 'Mainnet documentation',
-                  to: 'chrysalis-docs/welcome',
-                  icon: '\ue901',
-                  activeBaseRegex: '^/chrysalis-docs.*',
+                  label: 'Hornet Node',
+                  sublabel: 'IOTA node written in Go',
+                  to: 'hornet/welcome',
+                  icon: '\ue904',
+                  activeBaseRegex: '^/hornet/.*',
                 },
                 {
                   label: 'Bee Node',
@@ -144,13 +144,6 @@ module.exports = {
                   to: 'bee/welcome',
                   icon: '\ue900',
                   activeBaseRegex: '^/bee/.*',
-                },
-                {
-                  label: 'Hornet Node',
-                  sublabel: 'IOTA node written in Go',
-                  to: 'hornet/welcome',
-                  icon: '\ue904',
-                  activeBaseRegex: '^/hornet/.*',
                 },
                 {
                   label: 'Chronicle Permanode',
